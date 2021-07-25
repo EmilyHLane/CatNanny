@@ -8,17 +8,22 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8eeb24c0e5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>The Cat Nanny</title>
   </head>
   <body>
-    <header>
-      <div>
-        <img src="" alt="" />
+    <header class="flex">
+      <div class="col-50">
+        <img src="/images/catnanny_header_landscape.jpg" alt="happy cat" />
         <!-- Photo by <a href="https://unsplash.com/@vnevremeni?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marta Markes</a> on <a href="https://unsplash.com/s/photos/cat-petting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+        <!-- Photo by <a href="https://unsplash.com/@yerlinmatu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yerlin Matu</a> on <a href="https://unsplash.com/s/photos/cat-care?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
       </div>
-      <div>
+      <div class="col-50 right m-r-2">
         <nav>
-          <ul>
+          <ul class="nav-list flex justify-end">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#reviews">Reviews</a></li>
@@ -26,45 +31,46 @@
           </ul>
         </nav>
         <h1>The Cat Nanny</h1>
-        <p>Expert Care and Comfort for Your Cat</p>
+        <p class="h3">Expert Care and Comfort for Your Cat</p>
       </div>
     </header>
     <main>
-      <section id="about">
-        <section id="intro">
-          <div>
+      <section id="about" class="m-t-2">
+        <section id="intro" class="flex align-items-center">
+          <div class="col-60 m-x-2 m-r-2">
             <h2>Meet the Cat Nanny</h2>
             <p>
               There have been cats in my family for the majority of my life,
               always adopted from a shelter, and usually two at a time. A few
-              years ago, I decided to simplify my life and started my snall
-              usiness of being the cat nanny.
+              years ago, I decided to simplify my life and started my small
+              business of being the Cat Nanny.
             </p>
             <p>
-              My pets right now are Ashe and Shadow, and when I go on vacation,
-              I need to know that they are taken are of adn are comfortable with
-              their sitter who gives them special attention. This is what I will
-              provide for your pets. You will be able to go on your work travel
-              or vacation knowing that I am there taking care of your pets,
-              following your routine adn trying to make their lives as happy and
-              comfortable as if you were there yourself.
+              My pets are Ashe and Shadow, and when I go on vacation, I need to
+              know that they are taken care of and comfortable with their sitter
+              who gives them special attention. This is what I will provide for
+              your pets. You will be able to go on your work travel or vacation
+              knowing that I am there taking care of your pets, following your
+              routine and trying to make their lives as happy and comfortable as
+              if you were there yourself.
             </p>
             <p>
-              Once I have taken care of someone's cats, they typically call on
-              me several times a year, it seems to give them a secure feeling
-              knowing that I'm there for them at their pets. I get great
-              satisfaction from what I'm doing right now. Cats are such special
-              animals with their own distinct personalities and truly fill my
-              life with joy.
+              I get great satisfaction from what I'm doing right now. Cats are
+              such special animals with their own distinct personalities and
+              truly fill my life with joy.
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="col-40 m-x-2">
+            <img
+              src="/images/catnanny_joyce_cats_sq.png"
+              alt=""
+              class="round"
+            />
           </div>
         </section>
         <section>
           <!-- <i class="fas fa-paw-alt"></i> -->
-          <i class="fas fa-heart"></i>
+          <i class="fas fa-heart fa-5x"></i>
           <h3>SPCA Volunteer Cat Socializer</h3>
           <p>
             I volunteered as a cat socializer in Shelter Medicine at the SF SPCA
@@ -80,7 +86,7 @@
         <h2>Services</h2>
         <section>
           <div>
-            <i class="fas fa-cat"></i>
+            <i class="fas fa-cat fa-5x"></i>
             <h3>Cat Sitting</h3>
             <p>
               Taking care of pets while you're away includes playing, feeding,
@@ -88,7 +94,7 @@
             </p>
           </div>
           <div>
-            <i class="fas fa-prescription-bottle-alt"></i>
+            <i class="fas fa-prescription-bottle-alt fa-5x"></i>
             <h3>Medicine</h3>
             <p>
               If your pet requires medicine, I am able to administer medication
@@ -96,7 +102,7 @@
             </p>
           </div>
           <div>
-            <i class="fas fa-leaf"></i>
+            <i class="fas fa-leaf fa-5x"></i>
             <h3>Mail & Plant Care</h3>
             <p>
               While you're away, I'm also happy to collect your mail or water
@@ -111,11 +117,11 @@
             <p>I currently serve San Francisco.</p>
           </div>
         </section>
-        <section id="process" class="bg-img">
+        <section id="process" class="bg-img light">
           <!-- dark kitten -- Photo by <a href="https://unsplash.com/@aboutshin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">about shin</a> on <a href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
           <!-- dark cat Photo by <a href="https://unsplash.com/@fotovalentin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vasile Barbu</a> on <a href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
           <h3>Process</h3>
-          <p>
+          <p class="col-50">
             The first step I take as your cat nanny is a complimentary visit to
             introduce myself to your cat and learn more about what's needed to
             care for your cat. We'll review my cat care checklist that includes:
@@ -130,11 +136,16 @@
       </section>
       <section id="reviews">
         <h2>Reviews</h2>
+        <p>
+          Once I have taken care of someone's cats, they typically call on me
+          several times a year, it seems to give them a secure feeling knowing
+          that I'm there for them and their pets.
+        </p>
         <div id="review-carousel">
-          <p>best cat nanny ever</p>
-          <p>my cat loves her</p>
-          <p>more</p>
-          <p>cat nanny</p>
+          <p class="h3">best cat nanny ever</p>
+          <p class="h3">my cat loves her</p>
+          <p class="h3">more</p>
+          <p class="h3">cat nanny</p>
         </div>
       </section>
       <section id="contact">
