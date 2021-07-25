@@ -1,0 +1,47 @@
+:root {
+  --primary-dark: ddddd;
+}
+
+/* global */
+body {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  color: var(--primary-dark);
+  box-sizing: border-box;
+}
+
+/* text */
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* backgrounds */
+.bg-dark {
+  background-color: var(--primary-dark);
+}
+
+/* images */
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#process.bg-img {
+  background-image: url(/images/catnanny_darkkitten.jpg);
+}
+
+/* inputs */
