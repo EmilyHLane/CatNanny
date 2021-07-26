@@ -18,6 +18,7 @@ h1,
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  margin-top: 15rem;
 }
 h2,
 .h2 {
@@ -25,9 +26,12 @@ h2,
   font-weight: 400;
 }
 h3,
-.h3 {
+.h3, .subhead {
   font-size: 1.5rem;
   font-weight: 200;
+}
+.subhead{
+  margin-bottom: 8rem;
 }
 p {
   font-size: 1rem;
@@ -96,9 +100,11 @@ nav li {
 .col-25 {
   width: 25%;
 }
-
+section, header {
+  margin-bottom: 3rem;
+}
 #process {
-  padding: 4rem;
+  padding: 4rem 2rem;
 }
 
 /* margins */
@@ -131,6 +137,9 @@ nav li {
 .m-top-2 {
   margin-top: 2rem;
 }
+.m-center {
+  margin: 0 auto;
+}
 /* images */
 img {
   max-width: 100%;
@@ -147,6 +156,22 @@ img {
 
 #process.bg-img {
   background-image: url(/images/catnanny_darkcat.jpg);
+  background-position-y: 25%;
 }
+header>.bg-img {
+  background-image: url(/images/catnanny_header.jpg);
+}
+/* carousel */
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+button {
+  border: none;
+  background:none;
+}
+/* change text size based on review length */
 
 /* inputs */
