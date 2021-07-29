@@ -26,11 +26,12 @@ h2,
   font-weight: 400;
 }
 h3,
-.h3, .subhead {
+.h3,
+.subhead {
   font-size: 1.5rem;
   font-weight: 200;
 }
-.subhead{
+.subhead {
   margin-bottom: 8rem;
 }
 p {
@@ -100,7 +101,8 @@ nav li {
 .col-25 {
   width: 25%;
 }
-section, header {
+section,
+header {
   margin-bottom: 3rem;
 }
 #process {
@@ -158,7 +160,7 @@ img {
   background-image: url(/images/catnanny_darkcat.jpg);
   background-position-y: 25%;
 }
-header>.bg-img {
+header > .bg-img {
   background-image: url(/images/catnanny_header.jpg);
 }
 /* carousel */
@@ -170,8 +172,34 @@ header>.bg-img {
 }
 button {
   border: none;
-  background:none;
+  background: none;
 }
 /* change text size based on review length */
 
 /* inputs */
+label,
+input,
+textarea {
+  display: block;
+}
+label {
+  margin-top: 1rem;
+}
+input,
+textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+}
+#review-carousel > button {
+  background: none;
+}
+i {
+  color: var(--primary-dark);
+}
