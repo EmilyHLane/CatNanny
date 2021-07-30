@@ -18,7 +18,7 @@ h1,
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 h2,
 .h2 {
@@ -83,6 +83,9 @@ nav li {
 .col-100 {
   width: 100%;
 }
+.col-80 {
+  width: 80%;
+}
 .col-70 {
   width: 70%;
 }
@@ -103,7 +106,7 @@ nav li {
 }
 section,
 header {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 #process {
   padding: 4rem 2rem;
@@ -138,6 +141,9 @@ header {
 }
 .m-top-2 {
   margin-top: 2rem;
+}
+.m-bottom-2 {
+  margin-bottom: 2rem;
 }
 .m-center {
   margin: 0 auto;
@@ -196,6 +202,7 @@ button {
   margin: 1rem 0;
   background-color: var(--primary-dark);
   color: var(--primary-light);
+  border-radius: 3px;
 }
 #review-carousel > button {
   background: none;
